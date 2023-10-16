@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <!-- <button class="btn1">Say Hello</button> -->
+
+    <button id="btn1">Say Hello</button>
+
+    <script>
+   
+   // Question 1. On clicking the button append hello to the page 
+
+//    let btn = document.getElementsByClassName('btn1')
+//    console.log(btn);
+
+      let btn = document.getElementById('btn1');
+      console.log(btn); 
+
+    // The document method querySelector() return the first element within the document that matches 
+    // the specified selector or group of selector, if no matches are found, null is returned.
+
+    // let btn = document.querySelector('#btn1');
+    // console.log(btn);
+   
+    btn.addEventListener('click', function(e){
+
+        console.log(e);
+
+        // Creating an element
+        let divElem = document.createElement('div');
+        divElem.innerText= 'Hello';
+
+        // Adding this eleement into DOM
+        let body = document.querySelector('body');
+        body.appendChild(divElem);
+
+    })
+
+    </script>
+    
+</body>
+</html>
