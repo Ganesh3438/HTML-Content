@@ -14,3 +14,13 @@
 let arr = [1, 2, 3, 4, 5]
 console.log(arr);
 
+// Access an element with index from an array
+console.log(arr[2]); // 3
+console.log(arr[5]); // undefined
+
+// In JS everything, every data type will be allowed inside of an array
+let arr1= [1, 'Hello', true, undefined, null, [1,2,3]];
+console.log(arr1);
+let d = arr1[5];
+console.log(d[1]);
+
