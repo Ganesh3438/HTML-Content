@@ -62,7 +62,7 @@ const m = 10;
 console.log(m);
 
 // Notes: 
-// var will accept both declaration and reinitization the variables
+// var will accept both redeclaration and reinitialization the variables
 // let will not allow us to redeclaration the variable but we can reinitilize 
 // the value
 // const will not allow both redeclaration and reinitialization
