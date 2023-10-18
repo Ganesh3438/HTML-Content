@@ -11,6 +11,12 @@ let person = {
 }
 
 console.log(person);
+
 console.log()
-console.log('--------Accessing particular value-----')
+console.log('--------Fetching particular value using dot notation-----')
 console.log(person.name)
+
+console.log()
+console.log('--------Fetching particular value using bracket notation-----')
+console.log(person['age'])
+
