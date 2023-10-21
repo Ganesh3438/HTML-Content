@@ -1,3 +1,6 @@
+// What is this keyword?
+// This keyword is used to refer an object
+
 // 'use strict'
 
 // let a = 2;
