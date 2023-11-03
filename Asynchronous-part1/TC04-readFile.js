@@ -21,10 +21,10 @@ const fs = require("fs")
 
 console.log('Before');
 
-fs.readFile('TC05-f1.txt', callbackReadFile)
+fs.readFile('TC05-f1.txt', callbackReadFile1)
 
 
-function callbackReadFile(err, data){
+function callbackReadFile1(err, data){
     if(err){
         console.log(err)
     }else{
@@ -33,11 +33,10 @@ function callbackReadFile(err, data){
 }
 
 // file 2:
+fs.readFile('TC06-f2.txt', callbackReadFile2)
 
-fs.readFile('TC06-f2.txt', callbackReadFile)
 
-
-function callbackReadFile(err, data){
+function callbackReadFile2(err, data){
     if(err){
         console.log(err)
     }else{
@@ -47,10 +46,9 @@ function callbackReadFile(err, data){
 
 // file 3:
 
-fs.readFile('TC07-f3.txt', callbackReadFile)
+fs.readFile('TC07-f3.txt', callbackReadFile3)
 
-
-function callbackReadFile(err, data){
+function callbackReadFile3(err, data){
     if(err){
         console.log(err)
     }else{
@@ -58,5 +56,4 @@ function callbackReadFile(err, data){
     }
 }
 
-
-console.log('after');
+console.log('after')
