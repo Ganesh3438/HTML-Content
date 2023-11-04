@@ -27,7 +27,7 @@ function createNewData(newData, cb) {
   setTimeout(function () {
     myData.push(newData);
     cb();
-  }, 3000);
+  }, 3000); 
 }
 
 // calling the function

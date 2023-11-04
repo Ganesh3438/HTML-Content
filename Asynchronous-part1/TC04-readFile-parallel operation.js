@@ -33,7 +33,7 @@ function callbackReadFile1(err, data){
 }
 
 // file 2:
-fs.readFile('TC06-f2.txt', callbackReadFile2)
+fs.readFile('TC05-f2.txt', callbackReadFile2)
 
 
 function callbackReadFile2(err, data){
@@ -46,7 +46,7 @@ function callbackReadFile2(err, data){
 
 // file 3:
 
-fs.readFile('TC07-f3.txt', callbackReadFile3)
+fs.readFile('TC05-f3.txt', callbackReadFile3)
 
 function callbackReadFile3(err, data){
     if(err){
