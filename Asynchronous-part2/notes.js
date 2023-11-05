@@ -5,3 +5,5 @@
 // phase 2: Promise can be fulfilled --> Resolved
 // phase 3: Promise is not fulfilled --> Rejected
 // phase 4: Settled                  --> Promise executed..
+
+// https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff

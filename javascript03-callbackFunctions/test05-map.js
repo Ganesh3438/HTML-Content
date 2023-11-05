@@ -20,13 +20,13 @@ let myArr = [1, 2, 3, 4, 5];
 // let ans = squareArr(array);
 // console.log(ans)
 
-let sqauredValues = myArr.map(function(num){
+let squaredValues = myArr.map(function(num){
 
     return num * num
     // return  3.14 * num * num;
 })
 
-console.log(sqauredValues)
+console.log(squaredValues)
 
 // Example: Covert rupees to dollar
 // 1000 rupees = 12.5
