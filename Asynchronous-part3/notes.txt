@@ -1,0 +1,7 @@
+// Below step are for Restaurant or coffee shop example step to promise
+
+// Step 1: Place an order 
+// Step 2: Then you are order get served 
+// Step 3: Then the bill is generated. 
+
+
