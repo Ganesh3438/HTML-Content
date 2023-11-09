@@ -8,7 +8,7 @@
 
 // Test case 1:
 
-// console.log(this); -> This return an empty object
+// console.log(this); // -> This return an empty object
 
 // ----------------------------------------------------------
 
@@ -38,7 +38,8 @@
 
 // }
 
-// obj.getThis()
+// obj.getThis()  // This will give you whole object details include functions
+// o/p : { name: 'Adam', age: 21, getThis: [Function: getThis], gender: 'male' }
 
 // -------------------------------------------------------
 // test case 4: this keyword from a function that is inside a function inside an object
@@ -58,4 +59,4 @@ let obj2 = {
 
 }
 
-obj2.testFunction()
+// obj2.testFunction()

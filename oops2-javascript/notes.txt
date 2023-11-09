@@ -1,0 +1,2 @@
+Inheritance: The processs of taking some properties which can be reused
+from parent class is know as Inheritance.
