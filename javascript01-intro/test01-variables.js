@@ -7,7 +7,7 @@ console.log(b);
 var c = true;
 console.log(c);
 
-// Javascript does not cares about data type initialization for your variables. These 
+// Javascript does not cares about data type initialization for your variables. This
 // type of langauges are know as Losely typed langauges(javascript)
 // Strictly types language ---> Java, C++
 

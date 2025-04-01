@@ -11,5 +11,6 @@ constructor(name, age, subject, classStrength){
 
 }
 
+// export default Teacher;
 let teacher = new Teacher('Rao', 62, 'All subjects', 60);
 console.log(teacher)

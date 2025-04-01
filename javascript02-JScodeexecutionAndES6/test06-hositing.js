@@ -8,9 +8,9 @@
 // Note: var will not go to temporal dead zone it will be declare as undefined.
 // let and const will go to temporal dead zone
 
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log(a);
+// console.log(b);
+// console.log(c);
 printName()
 printAge()
 // console.log(c);

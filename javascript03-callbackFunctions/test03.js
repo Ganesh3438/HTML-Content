@@ -49,10 +49,10 @@ function calculateDiameter(radiusArr){
 let ans = calculateArea(myRadiusArray)
 console.log(ans)
 
-let ansCircumference = calculateCircumference(myRadiusArray)
-console.log(ansCircumference)
+// let ansCircumference = calculateCircumference(myRadiusArray)
+// console.log(ansCircumference)
 
-let ansDiameter = calculateDiameter(myRadiusArray)
-console.log(ansDiameter)
+// let ansDiameter = calculateDiameter(myRadiusArray)
+// console.log(ansDiameter)
 
 // What is DRY principle: This principle says that do not repeat yourself.  

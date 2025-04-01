@@ -9,3 +9,6 @@ let ans = myArr.reduce(function(acc, val){
 } , 0 )
 
 console.log(ans)
+
+
+

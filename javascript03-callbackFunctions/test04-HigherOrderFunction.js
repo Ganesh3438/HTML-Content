@@ -33,11 +33,11 @@ function calculateCircumference(radiusArr){
 let areaAns = calculateMyArea(myRadiusArray, circleAreaFunction);
 console.log(areaAns);
 
-let diameterAns = calculateMyArea(myRadiusArray, calculateDiameter)
-console.log(diameterAns);
+// let diameterAns = calculateMyArea(myRadiusArray, calculateDiameter)
+// console.log(diameterAns);
 
-let circumferenceAns = calculateMyArea(myRadiusArray, calculateCircumference)
-console.log(circumferenceAns)
+// let circumferenceAns = calculateMyArea(myRadiusArray, calculateCircumference)
+// console.log(circumferenceAns)
 
 
 

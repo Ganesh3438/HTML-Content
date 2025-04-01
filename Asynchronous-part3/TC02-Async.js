@@ -51,7 +51,7 @@ async function serveOrder(){
     let processOrder = await processYourOrder(orderStatus);
     console.log(processOrder)
     let bill = await generateBill(processOrder)
-    console.log(bill)
+    console.log(bill) 
 
    } catch (error) {
      console.log(error)

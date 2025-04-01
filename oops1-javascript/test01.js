@@ -1,5 +1,6 @@
 // What is this keyword?
 // This keyword is used to refer an object
+// The value of this keyword will depend on how it was called. 
 
 // 'use strict'
 

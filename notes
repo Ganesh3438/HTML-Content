@@ -1,0 +1,65 @@
+<!-- 
+
+JavaScript (JS) is a high-level, dynamic programming language primarily used for making web pages interactive. It is one of the core technologies of web development, alongside HTML (structure) and CSS (styling).
+
+Cypress and Selenium are both open-source tools used for automated web application testing, but they have several key differences: 
+Architecture
+
+Cypress runs in the browser, while Selenium runs outside the browser and uses a browser driver. 
+
+Language support
+Cypress is built on JavaScript and Node.js, while Selenium supports multiple programming languages, including Java, Python, C#, and Ruby. 
+Browser support
+
+Cypress only supports Chrome, while Selenium supports multiple browsers, including Chrome, Opera, Firefox, Edge, and Internet Explorer. 
+Ease of use
+
+Cypress is often considered more developer-friendly than Selenium. 
+Speed
+
+Cypress is generally faster than Selenium because it runs directly in the browser. 
+Compatibility
+
+Selenium's Java architecture provides wider compatibility with various programming languages for test automation. 
+Reporting
+
+Cypress comes with the Mocha testing framework, while Selenium can integrate with reporting libraries like Alloy or Extent. 
+
+Other differences include: 
+Cypress can manipulate DOM elements directly, while Selenium controls a browser remotely. 
+Cypress doesn't offer help for browsers such as Safari and IE, or for multi-tabs. 
+Cypress has restricted help for iFrames. 
+
+
+
+Truthy & Falsy Values in Type Coercion:
+When converting to Boolean, JavaScript treats values as truthy or falsy.
+
+Falsy Values (Convert to false)
+0
+"" (empty string)
+null
+undefined
+NaN
+false
+Truthy Values (Convert to true)
+Any non-empty string ("Hello")
+Any non-zero number (42, -1)
+true
+Arrays ([]) and Objects ({})
+
+
+Example:
+
+
+if ("") console.log("Truthy!"); // Won't execute ("" is falsy)
+if ("Hello") console.log("Truthy!"); // Executes ("Hello" is truthy)
+if (0) console.log("Truthy!"); // Won't execute (0 is falsy)
+if (42) console.log("Truthy!"); // Executes (42 is truthy)
+
+
+
+
+
+
+ -->

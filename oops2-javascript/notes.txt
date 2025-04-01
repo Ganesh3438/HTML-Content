@@ -1,2 +1,30 @@
-Inheritance: The processs of taking some properties which can be reused
-from parent class is know as Inheritance.
+1. What is your favorite color?
+2. Which one do you want?
+3. Which are your brother's shoes?
+
+4. Who is he?
+   He is a boy.
+
+5. Who are you?
+I am a doctor.
+
+6. Who is he?
+   Who is she?
+   Who are they?
+
+7. Who is this singer?
+   Who is your favorite actor?
+   Who are their parents?
+
+8. Where is your brother?
+   My brother is here only.
+
+9. Where is your school?
+   Where is he?
+   Where is she?
+   Where are they?
+   Where are my slippers?
+   Where are my glasses?
+   Where is my mother's bag?
+
+   

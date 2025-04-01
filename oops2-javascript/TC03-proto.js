@@ -13,7 +13,7 @@ console.log(person)
 // console.log(isValid)
 
 // Protype: When ever we create an obj a prototype is attached from which you will 
-// be able to use all the inbuild propertiesand methods.
+// be able to use all the inbuild properties and methods.
 
 function Car(carname, carColor){
   

@@ -13,7 +13,8 @@ let hello2 = "Hello 2";
 // let hello3 = "Hello 3";
 // console.log(hello3)
 
-// Note : Above piece of code is in synchronous nature(Synchronous means the code will execute in line by line) 
+// Note : Above piece of code is in synchronous nature(Synchronous means the code will execute 
+// in line by line) 
 // and by default javascript is a single threaded.
 
 console.log("----------------------------Asynchronous-----------------------------------------------")
